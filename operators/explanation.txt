@@ -1,0 +1,11 @@
+The assist in arithmetic and logical operations on values.
+
+(a) Arithmetic operators
++ addition
+- subtraction
+* multiplication
+/ division
+// floor division
+** exponent
+% modulus
+

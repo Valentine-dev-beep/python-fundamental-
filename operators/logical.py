@@ -1,0 +1,52 @@
+"""LOGICAL operators
+They are used to evaluate two different operations
+The result of the evaluation is always boolean expression(True or False).
+
+examples
+a) and 
+> This operators indicates that the two operations that is operation_1 and operation_2
+must be true, in order for the entire statement to be true.
+b) or
+> This operators indicates that the either or two operations that is operation_1 and
+operation_2 can be true in order for the entire statement to be true.
+c) not
+> This operators reverses the outcome of an operation.
+
+operation_1  P
+a = 6
+b = 2
+P = a > b  
+
+operation_2 Q
+c = 9
+d = 15
+Q = c > d
+
+print(operation_1 and operation_2)
+
+print(Q and P)
+
+Truth Table
+P       Q       P AND Q     P OR Q   NOT P   NOT Q
+True    True    True        True     False   False                      
+True    False   False       True     False   True  
+False   True    False       True     True    False
+False   False   False       False    True    True
+
+"""
+#operation 1
+p = 5  > 4
+print(p)
+
+#operation 2
+Q = 9 > 6
+
+print(Q)
+#and
+print(p and Q)
+ 
+#or
+print( p or Q)
+
+#not
+print(not(p or Q))
