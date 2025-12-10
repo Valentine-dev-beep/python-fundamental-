@@ -1,0 +1,18 @@
+TUPLES
+>A tuple is an ordered list of elements.
+>Values in tuples are called items
+>Individual items in a tuple can be retrieved using-index values(0-N)
+>Group of items can be retrieved using- slicing
+
+Creating a tuple
+>Tuples are immutable(you cannot change an item) inside a tuple once created.
+>It is created using parenthesis (), where items are placed inside separated by commas.
+>Each value inside a tuple is called an item.
+
+
+>Syntax:
+    tuple_name = (item2, item3,item)
+
+>Dictionary is represented with the curly brackets- dict {}
+>List is represented with the square bracket- list []
+>Tuples is represented with the normal brackets-tuples ()
